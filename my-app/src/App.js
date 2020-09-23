@@ -1,11 +1,11 @@
 import React from "react";
-import MaskCss from "./MaskCss";
+import DragDropLinearInterpolation from "./DragDropLinearInterpolation";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <MaskCss />
+      <DragDropLinearInterpolation />
     </div>
   );
 }
