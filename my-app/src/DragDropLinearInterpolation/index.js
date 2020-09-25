@@ -3,7 +3,6 @@ import useLinearInterpolation from "./useLinearInterpolation";
 import "./style.css";
 
 const DragDropLinearInterpolation = () => {
-  const container = document.querySelector(".container");
   useLinearInterpolation();
   return (
     <div className="container">
@@ -16,3 +15,12 @@ const DragDropLinearInterpolation = () => {
 };
 
 export default DragDropLinearInterpolation;
+
+// the event propagation(sự lan truyền sự kiện)
+/*
+ sự lan truyền gôm 3 phase
+ + capture phase: listen ở  window->document-> tổ tiên của target 
+ + target phase: listen ở target element
+ + bubble phase: ngược lại với capture phase
+
+*/
