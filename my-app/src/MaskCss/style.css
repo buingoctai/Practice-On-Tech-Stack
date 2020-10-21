@@ -7,6 +7,7 @@
   height: 100%;
   width: 100%;
   object-fit: cover; /*cut image fit with size but keep aspect ratio  */
+  /* object-position: center 75%; Dùng để điều chỉnh vị trí cần hiển thị trên ảnh*/
   -webkit-mask-size: cover;
   mask-size: cover;
 }
